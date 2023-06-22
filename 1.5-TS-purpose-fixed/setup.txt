@@ -1,0 +1,21 @@
+To actually run our TypeScript code and make it recognised by the browser we need a compiler that will covert it correctly into readable JS
+
+To add Typescript to our project we need node.js and npm
+First run: 
+npm i typescript -save-dev
+
+Then we add a tsconfig.json file by running
+npx tsc --init
+
+To transpile a code file to vanilla JS, we run
+tsc filename.ts
+
+
+It's handy to install the TypeScript compiler globally through:
+npm install -g typescript
+
+Check the version with:
+tsc --version
+
+It is strongly reccommended when learning TypeScript to enable on-hover VSCode prompts by 
+going into file > preferences > settings and typing editor.hover.enable and ticking the checkbox
